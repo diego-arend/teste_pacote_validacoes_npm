@@ -37,5 +37,3 @@ function isValidCPF(value) {
         return true;
     }
 }
-
-console.log(isValidCPF("81587716020"))
