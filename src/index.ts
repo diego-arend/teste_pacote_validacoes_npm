@@ -1,3 +1,1 @@
-import { isValidCPF } from "./files/documents";
-
-export default { isValidCPF };
+export { isValidCPF } from "./files/documents";

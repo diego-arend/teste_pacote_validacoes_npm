@@ -1,4 +1,4 @@
-export function isValidCPF(value: string) {
+export const isValidCPF = (value: string) => {
   // Validar se é String
   if (typeof value !== "string") {
     return false;
@@ -38,5 +38,7 @@ export function isValidCPF(value: string) {
 
   if (!(rest(10, 2) !== validator[0] || rest(11, 1) !== validator[1])) {
     return true;
+  } else {
+    return false;
   }
-}
+};

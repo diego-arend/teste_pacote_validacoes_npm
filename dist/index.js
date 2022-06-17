@@ -1,6 +1,8 @@
 'use strict';
 
-function isValidCPF(value) {
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var isValidCPF = function (value) {
     // Validar se é String
     if (typeof value !== "string") {
         return false;
@@ -37,9 +39,10 @@ function isValidCPF(value) {
     if (!(rest(10, 2) !== validator[0] || rest(11, 1) !== validator[1])) {
         return true;
     }
-}
+    else {
+        return false;
+    }
+};
 
-var index = { isValidCPF: isValidCPF };
-
-module.exports = index;
+exports.isValidCPF = isValidCPF;
 //# sourceMappingURL=index.js.map

@@ -1,1 +1,1 @@
-export declare function isValidCPF(value: string): boolean | undefined;
+export declare const isValidCPF: (value: string) => boolean;

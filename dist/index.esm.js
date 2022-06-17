@@ -1,4 +1,4 @@
-function isValidCPF(value) {
+var isValidCPF = function (value) {
     // Validar se é String
     if (typeof value !== "string") {
         return false;
@@ -35,9 +35,10 @@ function isValidCPF(value) {
     if (!(rest(10, 2) !== validator[0] || rest(11, 1) !== validator[1])) {
         return true;
     }
-}
+    else {
+        return false;
+    }
+};
 
-var index = { isValidCPF: isValidCPF };
-
-export { index as default };
+export { isValidCPF };
 //# sourceMappingURL=index.esm.js.map
