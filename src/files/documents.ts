@@ -1,4 +1,4 @@
-function isValidCPF(value: string) {
+export function isValidCPF(value: string) {
   // Validar se é String
   if (typeof value !== "string") {
     return false;
