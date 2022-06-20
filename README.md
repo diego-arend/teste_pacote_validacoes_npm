@@ -1,6 +1,12 @@
-# Pacote com funções para validação de campos de formulário
+# Projeto de funções para validação de campos de formulário e distribuição via pacote NPM
 
 ## Funções JS/Typescript para validação de campos de formulário
+
+## Comandos de instalação do pacote
+
+**npm i validations_teste_dfa**
+
+**yarn add validations_teste_dfa**
 
 ## Comandos para build e publish das funções
 
