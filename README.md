@@ -38,7 +38,7 @@ import { isValidCPF } from 'validations_teste_dfa';
 isValidCPF(value: string) => boolean
 */
 ```
-## Leia mais sobre as dependências utilizadas no projeto
+# Leia mais sobre as dependências utilizadas no projeto
 
 Rollup: https://rollupjs.org/guide/en/
 
