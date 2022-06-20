@@ -17,6 +17,7 @@ Efetua o build dos arquivos e dependências de Typescript
 Publica o pacote com gerenciador de versão
 
 O versionamento segue padrão semântico através das plavaras chaves:
+
 - Major
 - Patch
 - Minor
@@ -26,13 +27,14 @@ Maiores informações em https://docs.npmjs.com/about-semantic-versioning
 # Descrição das funcionalidades e semântica de importação
 
 ## isValidCPF
+
 ```
 /**
 import { isValidCPF } from 'validations_teste_dfa';
 
 @param {string} value - CPF com ou sem máscara
 @returns {boolean} - Se CPF conter 11 caracteres e passar no algoritmo de validação é verdadeiro
-*/
-isValidCPF(value: string) => boolean
-```
 
+isValidCPF(value: string) => boolean
+*/
+```
