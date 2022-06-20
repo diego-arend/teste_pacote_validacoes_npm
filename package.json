@@ -11,7 +11,7 @@
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "pvm && rollup -c",
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.0",
