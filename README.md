@@ -29,14 +29,14 @@ Maiores informações em https://docs.npmjs.com/about-semantic-versioning
 ## isValidCPF
 
 ```
-/**
 import { isValidCPF } from 'validations_teste_dfa';
 
+/**
 @param {string} value - CPF com ou sem máscara
 @returns {boolean} - Se CPF conter 11 caracteres e passar no algoritmo de validação é verdadeiro
+*/
 
 isValidCPF(value: string) => boolean
-*/
 ```
 # Leia mais sobre as dependências utilizadas no projeto
 
