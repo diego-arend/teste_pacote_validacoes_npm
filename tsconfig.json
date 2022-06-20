@@ -17,17 +17,14 @@
     "declaration": true,
     "declarationDir": "./",
   },
-  // "extends": "./tsconfig",
   "include": [
     "./src",
   ],
   "exclude": [
     "node_modules",
     "dist",
-    // "**/*.test.tsx",
-    // "**/*.test.ts"
-    "**/*.test.*", 
-    "**/__mocks__/*", 
+    "**/*.test.*",
+    "**/__mocks__/*",
     "**/__tests__/*"
   ]
 }

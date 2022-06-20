@@ -1,7 +1,5 @@
 {
   "env": {
-    // "browser": true,
-    // "es2021": true,
     "jest": true
   },
   "extends": ["plugin:@typescript-eslint/recommended"],
@@ -15,28 +13,18 @@
   "plugins": ["@typescript-eslint"],
   "rules": {
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
-    // "react/jsx-filename-extension": [
-    //   "error",
-    //   { "extensions": [".js", ".jsx"] }
-    // ],
     "import/prefer-default-export": "off",
-    // "react/prop-types": "off",
     "no-nested-ternary": "off",
     "no-param-reassign": "off",
     "radix": "off",
-    // "react/react-in-jsx-scope": "off",
     "no-console": "warn",
     "no-useless-escape": "off",
     "camelcase": "off",
     "array-callback-return": "off",
-    // "react/destructuring-assignment": "off",
-    // "react/jsx-props-no-spreading": "off",
     "import/no-extraneous-dependencies": "off",
     "no-unused-vars": "warn",
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-    // "jsx-a11y/label-has-associated-control": "off",
     "import/no-unresolved": "off",
     "no-irregular-whitespace": "off"
-    // "jsx-a11y/no-interactive-element-to-noninteractive-role": "off"
   }
 }
