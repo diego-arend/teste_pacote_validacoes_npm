@@ -1870,6 +1870,13 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
+package-version-manager@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/package-version-manager/-/package-version-manager-1.0.5.tgz#67fa08c0fcdb10914d2075af84b16bf3dfd33347"
+  integrity sha512-KebgFbnISK1SO9Mh+Ij0QmZb8cN7HMqcRL/+6QgIWPiDDbWaGISevj3qk0vstgFSCcBNhdEv6eJEyrawkYZJEw==
+  dependencies:
+    prompts "^2.3.0"
+
 parse-json@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-5.2.0.tgz#c76fc66dee54231c962b22bcc8a72cf2f99753cd"
@@ -1932,7 +1939,7 @@ pretty-format@^28.1.1:
     ansi-styles "^5.0.0"
     react-is "^18.0.0"
 
-prompts@^2.0.1:
+prompts@^2.0.1, prompts@^2.3.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/prompts/-/prompts-2.4.2.tgz#7b57e73b3a48029ad10ebd44f74b01722a4cb069"
   integrity sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==

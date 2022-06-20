@@ -1,6 +1,6 @@
 {
   "name": "validations_teste_dfa",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -10,13 +10,14 @@
   ],
   "scripts": {
     "prebuild": "rimraf lib",
-    "build": "rollup -c"
+    "build": "pvm && rollup -c"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.3",
     "jest": "^28.1.1",
+    "package-version-manager": "^1.0.5",
     "rimraf": "^3.0.2",
     "rollup": "^2.75.6",
     "rollup-plugin-peer-deps-external": "^2.2.4",
