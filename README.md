@@ -18,7 +18,7 @@ Roda os arquivos do diretório test
 
 Efetua o build dos arquivos e dependências de Typescript
 
-### 3) *npm publish*
+### 3) *yarn publish*
 
 Publica o pacote com gerenciador de versão
 
