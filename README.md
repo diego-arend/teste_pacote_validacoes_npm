@@ -22,11 +22,11 @@ Efetua o build dos arquivos e dependências de Typescript
 
 Publica o pacote com gerenciador de versão
 
-O versionamento segue padrão semântico através das plavaras chaves:
+O versionamento segue padrão semântico através das palavras chaves:
 
-- Major
-- Patch
-- Minor
+- major
+- patch
+- minor
 
 Maiores informações em https://docs.npmjs.com/about-semantic-versioning
 
