@@ -12,7 +12,11 @@
 
 ### 1) *yarn test*
 
-Roda os arquivos do diretório test
+Roda os arquivos do diretório test.
+
+### 1) *yarn coverage*
+
+Roda os arquivos do diretório test e captura a cobertura das linhas de código.
 
 ### 2) *yarn build*
 
